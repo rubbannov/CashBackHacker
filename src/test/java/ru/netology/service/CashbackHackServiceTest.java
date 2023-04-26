@@ -30,7 +30,7 @@ public class CashbackHackServiceTest {
 
     @Test
     public void maxTest(){
-        assertEquals(service.remain(900950), 50);
+        assertEquals(service.remain(1000), 0);
     }
 
 }
